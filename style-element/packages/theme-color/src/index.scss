@@ -1,0 +1,28 @@
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+    $colors: (
+        "primary": (
+            "base": #eb1c31,
+            // 主色
+        ),
+        "success": (
+            "base": #eb1c31,
+            // 成功色
+        ),
+        "warning": (
+            "base": #ffb302,
+            // 警告色
+        ),
+        "danger": (
+            "base": #e26237,
+            // 危险色
+        ),
+        "error": (
+            "base": #5d22ca,
+            // 错误色
+        )
+    )
+);
+
+:root {
+    --el-color-success: #ed761b; /* 你想要的成功颜色 */
+}
